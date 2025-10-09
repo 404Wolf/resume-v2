@@ -85,7 +85,7 @@
       (#link("https://404wolf.com/posts/valtowneditor/")[blog], #link("https://github.com/val-town/vtlsp")[code]).
       Helped architect and implement custom K8s load balancing system. Worked on
       backend redesign to enable higher throughput with clustering w/Pingora, and
-      eventual WebSocket support via Undici w/Unix socket file watchers.
+      eventual WebSocket support via Undici w/Unix socket file watchers. Currently working on next-edit code completions.
   ]
 
   #job-container(
