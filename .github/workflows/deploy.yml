@@ -21,7 +21,7 @@ jobs:
 
       - name: Copy & stage the PDF
         run: |
-          cp result/share/resume.pdf resume.pdf
+          cp -L result resume.pdf
           rm -r result
 
       - name: GitHub Release
