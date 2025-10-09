@@ -30,20 +30,9 @@
   v(-0.4em)
 }
 
-#let project-container(links, title, body) = {
+#let project-container(title, body) = {
   text(size: 1em)[*#title*]
   h(0.25em)
-
-  "("
-  for (label, url) in links {
-    link(url, [*#label*])
-    if links.last() != (label, url) {
-      ","
-      h(0.3em)
-    } else {
-      ")"
-    }
-  }
 
   linebreak()
 
