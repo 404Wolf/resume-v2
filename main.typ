@@ -56,7 +56,7 @@
   ]
 
   #school-container(
-    "Bard Early College", "Queens, NY", "Associates of Arts, 4.00 GPA", "September, 2021", "June, 2023",
+    "Bard Early College", "Queens, NY", "Associate of Arts, 4.00 GPA", "September, 2021", "June, 2023",
   )[]
 ]
 
@@ -78,7 +78,7 @@
   "Experience",
 )[
   #job-container(
-    "Fullstack Software Engineer", "Val Town", "Easy, fun, & instant serverless Javascript functions.", "May 2025", "Present", "NYC",
+    "Fullstack Software Engineer", "Val Town", "Easy, fun, & instant serverless JavaScript functions.", "May 2025", "Present", "NYC",
   )[
     - Designed and wrote our CLI companion (#link("https://404wolf.com/posts/valtowncli/")[blog], #link("https://github.com/val-town/vt")[code])
       to author Vals locally, with atomic bidirectional syncing.
@@ -135,8 +135,8 @@
     [CWRU Food Finder (#link("https://404wolf.com/posts/project/freeCwruFood")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/free-cwru-food")[code])],
   )[
     Website using fine-tuned OpenAI model w/Google Cloud Run & MongoDB automated
-    workflow to scrape on-campus events and categorize by free food. 2024 1st
-    place university hackathon project. About 50 visitors/month.
+    workflow to scrape on-campus events and categorize by free food. 2024 1st place
+    university hackathon project. About 50 visitors/month.
   ]
 ]
 
@@ -151,7 +151,7 @@
     React-router, Tailwind, Prisma/Drizzle, remark/rehype, etc), Modern python
     frameworks (numpy, pandas, django, PyQt/PyQtGraph, etc), Modern database systems
     (Postgres, Clickhouse, Redis/valkey), General devtools (Git, github workflows,
-    gnu, etc), AWS (s3, ec2, etc), realtime networking WebAPIs (WebSockets, WebRTC,
+    GNU, etc), AWS (s3, ec2, etc), real-time networking WebAPIs (WebSockets, WebRTC,
     etc), Vim wizard :\)
 ]
 
