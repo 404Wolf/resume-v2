@@ -80,39 +80,37 @@
   #job-container(
     "Fullstack Software Engineer", "Val Town", "Easy, fun, & instant serverless Javascript functions.", "May 2025", "Present", "NYC",
   )[
-    - Designed and wrote our CLI companion (#link("https://404wolf.com/posts/valtowncli/")[blog], #link("https://github.com/val-town/vt")[code]).
-      Integrated the Deno (typescript) language server into our codemirror web editor
-      (#link("https://404wolf.com/posts/valtowneditor/")[blog], #link("https://github.com/val-town/vtlsp")[code]).
-      Helped architect and implement custom K8s load balancing system. Worked on
-      backend redesign to enable higher throughput with clustering w/Pingora, and
-      eventual WebSocket support via Undici w/Unix socket file watchers. Currently working on next-edit code completions.
+    - Designed and wrote our CLI companion (#link("https://404wolf.com/posts/valtowncli/")[blog], #link("https://github.com/val-town/vt")[code])
+      to author Vals locally, with atomic bidirectional syncing.
+    - Integrated Deno (Typescript) language server into Codemirror web editor (#link("https://404wolf.com/posts/valtowneditor/")[blog], #link("https://github.com/val-town/vtlsp")[code])
+      w/Cloudflare Containers.
+    - Helped architect and implement custom K8s load balancing system. Worked on
+      backend redesign to enable higher throughput with sharding using Pingora, and
+      eventual WebSocket support via Undici w/Unix socket file watchers.
+    - Currently working on next-edit code completions.
   ]
 
   #job-container(
     "Participant", "Recurse Center", "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC & Remote",
   )[
-    - *NixOS / Nix Builds*
-      Contributed to #link("https://github.com/NixOS/nixpkgs")[nixpkgs]. Configured
-      NixOS desktop system from scratch w/Hyprland, home-manager, and other extensive
-      customizations. Learned Nix language/packaging binaries & various programs.
-      Working on project to dockerize Android emulators with Nix docker tools (#link("https://github.com/404Wolf/android-docker")[code]).
-    - *Generated Vocab Cards* (#link("https://github.com/orgs/Logophilio/repositories")[code])
-      Created Python Django server to merge Webster, OpenAI, and other API data into
-      elegant English Vocab flashcard PDFs. Made system to generate vector art using
-      template SVGs and Chrome Devtools Protocol.
+    - Learned Nix and contributed packages to #link("https://github.com/NixOS/nixpkgs")[nixpkgs].
+      Working on project to dockerize Android emulators with Nix docker tools (#link("https://404wolf.com/posts/androidinthebrowser/", "blog"), #link("https://github.com/404Wolf/android-docker")[code]).
+      Configured NixOS desktop system from scratch w/Hyprland, home-manager, and other
+      extensive customizations (#link("https://github.com/404wolf/nixos-laptop")[code]).
+    - Created Python Django server to merge Webster, OpenAI, and other API data into
+      elegant English Vocab flashcard PDFs (#link("https://404wolf.com/posts/eclecticenglishvocabdeck/", "blog"), #link("https://github.com/orgs/Logophilio/repositories")[code]).
+      Generated vector art using template SVGs and Chrome Devtools Protocol.
   ]
 
   #job-container(
     "Co-founder; Solo Software Engineer; Sales Manager", "Minecraft Name Autoclaiming", "Online self-run business", "June 2021", "July 2022", "Remote",
   )[
-    - *Software Engineer*
-      Developed system w/Python to autoclaim desirable Minecraft usernames at moment
+    - Developed (Python) system to autoclaim desirable Minecraft usernames at moment
       of release. Automated server deployment and account distribution for 50-80
-      accounts. Implemented automatic name queue, server-setup scripts, AioHTTP
-      Swagger-Spec'ed management server, and admin interface. Utilized Vultr API for
-      server deployment and AsyncSSH for automation & SFTP.
-    - *Sales Management*
-      Facilitated sales process and auctions for over 100 buyers, generating \$6,000+
+      accounts/servers.
+    - Implemented automatic name queue, server-setup scripts w/AsyncSSH & SFTP,
+      concurrent deployments w/Vultr API & Aiohttp, & admin interfaces.
+    - Facilitated sales process and auctions for over 100 buyers, generating \$6,000+
       in revenue with around 200 unique accounts sold. Maintained consistently
       positive customer feedback and regular reorders.
   ]
@@ -137,9 +135,8 @@
     [CWRU Food Finder (#link("https://404wolf.com/posts/project/freeCwruFood")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/free-cwru-food")[code])],
   )[
     Website using fine-tuned OpenAI model w/Google Cloud Run & MongoDB automated
-    workflow to scrape on-campus events and categorize by free food. Includes
-    MUI/React/NextJS frontend. Uses puppeteer to scrape additional event details.
-    2024 1st place university hackathon project. About 50 visitors/month.
+    workflow to scrape on-campus events and categorize by free food. 2024 1st
+    place university hackathon project. About 50 visitors/month.
   ]
 ]
 
@@ -148,21 +145,20 @@
 )[
   #set list(spacing: 0.6em)
 
-  - *Languages:* TypeScript/JavaScript, Nix, Go, Rust, Java, Bash, Lua,
-    C/C++, Scheme/Racket, HTML & CSS, Markdown & LaTeX, Typst
+  - *Languages:* TypeScript/JavaScript, Nix, Go, Rust, Java, Bash, Lua, C/C++,
+    Scheme/Racket, HTML & CSS, Markdown & LaTeX, Typst
   - *Tools:* Nix & NixOS, Linux, OCI Containers, Modern web frameworks (React, Next,
     React-router, Tailwind, Prisma/Drizzle, remark/rehype, etc), Modern python
     frameworks (numpy, pandas, django, PyQt/PyQtGraph, etc), Modern database systems
     (Postgres, Clickhouse, Redis/valkey), General devtools (Git, github workflows,
-    gnu, etc), AWS (s3, ec2, etc), realtime networking WebAPIs (WebSockets, WebRTC, etc), Vim wizard :)
+    gnu, etc), AWS (s3, ec2, etc), realtime networking WebAPIs (WebSockets, WebRTC,
+    etc), Vim wizard :\)
 ]
 
-#align(
-  right,
-)[
-  #text(
-    size: 6pt,
-  )[
-    #link("https://github.com/404wolf/resume-v2")[Built with Nix; Source on GitHub]
+#align(right)[
+  #text(size: 6pt)[
+    #link(
+      "https://github.com/404wolf/resume-v2",
+    )[Built with Nix; Source on GitHub]
   ]
 ]

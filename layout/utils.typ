@@ -25,14 +25,16 @@
       rows: 2, row-gutter: 0.35em, [*#role*], [#company #h(0.5em) #box(description)],
     ), align(right)[*#start-date – #end-date* \ #location],
   )
-  v(-0.8em)
+
+  set list(spacing: 0.6em)
+
+  v(-0.6em)
   body
   v(-0.4em)
 }
 
 #let project-container(title, body) = {
   text(size: 1em)[*#title*]
-  h(0.25em)
 
   linebreak()
 
