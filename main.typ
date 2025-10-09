@@ -156,7 +156,7 @@
   - *Tools:* Nix & NixOS, Linux, Containers, Modern web frameworks (React, Next,
     React-router, Tailwind, Prisma/Drizzle, remark/rehype, etc), Modern python
     frameworks (numpy, pandas, django, PyQt/PyQtGraph, etc), Modern database systems
-    (Postgres, Clickhouse, Redis/keyval), General devtools (Git, github workflows,
+    (Postgres, Clickhouse, Redis/valkey), General devtools (Git, github workflows,
     gnu, etc), AWS (s3, ec2, etc), Janus Gateway & WebRTC, (neo)Vim wizard
 ]
 
