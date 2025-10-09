@@ -47,12 +47,12 @@
   #school-container(
     "Case Western Reserve University", "Cleveland, OH", "B.S. Computer Science, 3.93 GPA", "September, 2023", "Anticipated 2027",
   )[
-    - *Relevant courses:* Networks, Linux Tools & Scripting; Algo/Data Structures, OS,
+    - *Courses:* Networks, Linux Tools & Scripting; Algo/Data Structures, OS,
       Persuasion
     - *Experience:* #link(
         "https://case.edu/entrepreneurship/fellowships/veale-snyder-fellows-program",
       )[Veale Snyder Fellow] (entrepreneurship program), Linux Club VP, Board Game
-      Club VP
+      Club VP, Software Craftsmanship TA
   ]
 
   #school-container(
