@@ -34,7 +34,7 @@
 }
 
 #let project-container(title, body) = {
-  text(size: 1em)[*#title*]
+  text(size: 1em)[#title]
 
   linebreak()
 
@@ -44,9 +44,9 @@
 
 #let school-container(school, location, meta, start-date, end-date, body) = {
   grid(
-    columns: (70%, 30%), [*#school* \ #meta], align(right)[*#location* \ #start-date - #end-date],
+    columns: (68%, 32%), [*#school* \ #meta], align(right)[*#location* \ #start-date - #end-date],
   )
-  v(-1.9em)
+  v(-0.6em)
   set par(leading: 0.4em)
   set list(indent: 0.3em)
   body

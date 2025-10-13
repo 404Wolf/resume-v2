@@ -31,11 +31,11 @@
 
 #align(center)[
   #text(9.2pt)[
-    #link("tel:" + phone)[#phone] |
-    #link("mailto:" + email)[#email] |
     #link("https://" + personal-site)[#personal-site] |
+    #link("https://" + github)[#github] |
     #link("https://" + linkedin)[#linkedin] |
-    #link("https://" + github)[#github]
+    #link("mailto:" + email)[#email] |
+    #link("tel:" + phone)[#phone]
   ]
 ]
 
@@ -48,11 +48,10 @@
     "Case Western Reserve University", "Cleveland, OH", "B.S. Computer Science, 3.93 GPA", "September, 2023", "Anticipated 2026",
   )[
     - *Courses:* Networks, Linux Tools & Scripting; Algo/Data Structures, OS,
-      Persuasion
+      Persuasion, Software Craftsmanship TA
     - *Experience:* #link(
         "https://case.edu/entrepreneurship/fellowships/veale-snyder-fellows-program",
-      )[Veale Snyder Fellow], Linux Club Co-President, Board Game Club VP, Software
-      Craftsmanship TA
+      )[Veale Snyder Fellow], Linux Club Co-President, Board Game Club President
   ]
 
   #school-container(
@@ -60,7 +59,7 @@
   )[]
 ]
 
-#v(1.9em)
+#v(0.5em)
 
 #category-title(
   "Awards & Honors",
@@ -78,7 +77,7 @@
   "Experience",
 )[
   #job-container(
-    "Fullstack Software Engineer", "Val Town", "Easy, fun, & instant serverless JavaScript functions.", "May 2025", "Present", "NYC",
+    "Fullstack Software Engineer", link("https://val.town", "Val Town"), "Easy, fun, & instant serverless JavaScript functions-as-a-service platform.", "May 2025", "Present", "NYC",
   )[
     - Designed and wrote our CLI companion (#link("https://404wolf.com/posts/valtowncli/")[blog], #link("https://github.com/val-town/vt")[code])
       to author Vals locally, with atomic bidirectional syncing.
@@ -91,7 +90,7 @@
   ]
 
   #job-container(
-    "Participant", "Recurse Center", "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC & Remote",
+    "Participant", link("https://recurse.com", "Recurse Center"), "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC & Remote",
   )[
     - Learned Nix and contributed packages to #link("https://github.com/NixOS/nixpkgs")[nixpkgs].
       Working on project to dockerize Android emulators with Nix docker tools (#link("https://404wolf.com/posts/androidinthebrowser/", "blog"), #link("https://github.com/404Wolf/android-docker")[code]).
@@ -120,19 +119,19 @@
   "Projects",
 )[
   #project-container(
-    [DNA Nanotube Designer Tool ("NATuG") (#link("https://404wolf.com/posts/project/DNANanotubes")[blog], #link(
+    [*DNA Nanotube Designer Tool* (#link("https://404wolf.com/posts/project/DNANanotubes")[blog], #link(
         "https://wolf-mermelstein-personal-website.s3.us-east-2.amazonaws.com/programOverview_0001_0001_0001.webm",
       )[demo], #link("https://github.com/NATuG3/NATuG3")[code])],
   )[
     DNA nanotechnology academic research project. Developed interactive PY-QT
     desktop app to streamline geometrically constrained DNA nanotube design.
     Collaborated w/bionanotechnologist to create important algorithms like
-    determining helix strand switch behavior on junction clicks. Designed export
-    file format. Wrote manual and began working on scholarly paper.
+    determining helix strand switch behavior on junction clicks. Designed custom
+    export file format. Wrote manual and helped draft scholarly paper.
   ]
 
   #project-container(
-    [CWRU Food Finder (#link("https://404wolf.com/posts/project/freeCwruFood")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/free-cwru-food")[code])],
+    [*CWRU Free Food Finder* (#link("https://404wolf.com/posts/project/freeCwruFood")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/free-cwru-food")[code])],
   )[
     Website using fine-tuned OpenAI model w/Google Cloud Run & MongoDB automated
     workflow to scrape on-campus events and categorize by free food. 2024 1st place
