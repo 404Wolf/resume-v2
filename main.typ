@@ -145,7 +145,7 @@
   #set list(spacing: 0.6em)
 
   - *Languages:* TypeScript/JavaScript, Nix, Go, Rust, Java, Bash, Lua, C/C++,
-    Scheme/Racket, HTML & CSS, Markdown & LaTeX, Typst
+    Scheme/Racket, (postgre)SQL, HTML & CSS, Markdown & LaTeX, Typst
   - *Tools:* Nix & NixOS, Linux, OCI Containers, Modern web frameworks (React, Next,
     React-router, Tailwind, Prisma/Drizzle, remark/rehype, etc), Modern python
     frameworks (numpy, pandas, django, PyQt/PyQtGraph, etc), Modern database systems
