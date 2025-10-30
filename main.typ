@@ -45,7 +45,7 @@
   "Education",
 )[
   #school-container(
-    "Case Western Reserve University", "Cleveland, OH", "B.S. Computer Science, 3.93 GPA", "August, 2023", "Anticipated May 2026",
+    "Case Western Reserve University", "Cleveland, OH", "B.S. Computer Science, Minor in Math & Finance, 3.93 GPA", "August, 2023", "Anticipated May 2026",
   )[
     - *Courses:* Networks, Linux Tools & Scripting; Algo/Data Structures, OS,
       Persuasion, Software Craftsmanship TA
