@@ -93,7 +93,7 @@
     "Participant", link("https://recurse.com", "Recurse Center"), "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC & Remote",
   )[
     - Learned Nix and contributed packages to #link("https://github.com/NixOS/nixpkgs")[nixpkgs].
-      Working on project to dockerize Android emulators with Nix docker tools (#link("https://404wolf.com/posts/androidinthebrowser/", "blog"), #link("https://github.com/404Wolf/android-docker")[code]).
+      Working on project to dockerize Android emulators with Nix docker tools (#link("https://404wolf.com/posts/androidinthebrowser/", "blog"), #link("https://github.com/orgs/Cliquets/repositories")[code]).
       Configured NixOS desktop system from scratch w/Hyprland, home-manager, and other
       extensive customizations (#link("https://github.com/404wolf/nixos-laptop")[code]).
     - Created Python Django server to merge Webster, OpenAI, and other API data into
