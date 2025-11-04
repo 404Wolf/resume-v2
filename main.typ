@@ -131,7 +131,7 @@
   ]
 
   #project-container(
-    [*CWRU Free Food Finder* (#link("https://404wolf.com/posts/project/freeCwruFood")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/free-cwru-food")[code])],
+    [*CWRU Free Food Finder* (#link("https://404wolf.com/posts/cwrufreefoodfinder/")[blog], #link("https://free-cwru-food.404wolf.com/")[demo], #link("https://github.com/404Wolf/Food-Finder")[code])],
   )[
     Website using fine-tuned OpenAI model w/Google Cloud Run & MongoDB automated
     workflow to scrape on-campus events and categorize by free food. 2024 1st place
