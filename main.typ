@@ -48,7 +48,7 @@
     "Case Western Reserve University", "Cleveland, OH", "B.S. Computer Science, Minor in Math & Finance, 3.93 GPA", "August, 2023", "Anticipated May 2026",
   )[
     - *Courses* OS, Compilers, Networks, Algo/Data Structures
-    - *Experience* #link("https://case.edu/entrepreneurship/fellowships/veale-snyder-fellows-program")[Veale Snyder Fellow], Linux Club Co-President #link("https://github.com/CWRUnix/presentations/releases")[Club "syllabus" and talks], #link("https://community.case.edu/tte/about-us/")[Board Game Club President], Case Western ThinkBox Student Project Fund @ \$630 (#link("https://404wolf.com/posts/coinsortbot/", "blog")), Software Craftsmanship TAing
+    - *Experience* #link("https://case.edu/entrepreneurship/fellowships/veale-snyder-fellows-program")[Veale Snyder Fellow], Linux Club Co-President #link("https://github.com/CWRUnix/presentations/releases")[(club "syllabus" and talks)], #link("https://community.case.edu/tte/about-us/")[Board Game Club President], Case Western ThinkBox Student Project Fund @ \$630 (#link("https://404wolf.com/posts/coinsortbot/", "blog")), Software Craftsmanship TAing
   ]
 
   #school-container(
