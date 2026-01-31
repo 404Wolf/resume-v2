@@ -39,7 +39,7 @@
   ]
 ]
 
-#v(-0.8em)
+#v(-.8em)
 
 #category-title(
   "Education",
@@ -56,8 +56,6 @@
   )[]
 ]
 
-#v(0.5em)
-
 #category-title(
   "Awards & Honors",
 )[
@@ -66,8 +64,6 @@
     ([Microsoft Bug Hunter Acknowledgment (#link("https://404wolf.com/posts/msnemails/", "writeup blog"))], "March 2022"),
   ))
 ]
-
-#v(0.3em)
 
 #category-title(
   "Experience",
@@ -124,6 +120,7 @@
 ]
 
 #align(right)[
+  #v(-0.35in)
   #text(size: 6pt)[
     #link("https://github.com/404wolf/resume-v2")[Built with Nix; Source on GitHub]
   ]
