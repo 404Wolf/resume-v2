@@ -1,5 +1,5 @@
 #let category-title(title, body) = {
-  text(12pt)[#smallcaps(strong(title))]
+  text(14pt, weight: "extrabold")[#smallcaps(strong(title))]
   v(-1.15em)
   line(length: 100%, stroke: stroke(thickness: 0.2pt))
   v(-0.7em)
@@ -15,7 +15,7 @@
 }
 
 #let job-container(role, company, description, start-date, end-date, location, body) = {
-  set text(10.3pt)
+  set text(10pt)
 
   grid(
     columns: (1fr, auto), grid(
@@ -29,7 +29,7 @@
 }
 
 #let project-container(title, body) = {
-  text(size: 1em)[#title]
+  text(size: 10pt)[#title]
 
   v(-0.6em)
 
@@ -38,6 +38,8 @@
 }
 
 #let school-container(school, location, meta, start-date, end-date, body) = {
+  set text(10pt)
+
   grid(
     columns: (1fr, auto),
     grid(

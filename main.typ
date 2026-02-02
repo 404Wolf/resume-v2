@@ -77,7 +77,7 @@
   ]
 
   #job-container(
-    "Participant", link("https://recurse.com", "Recurse Center"), "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC & Remote",
+    "Participant", link("https://recurse.com", "Recurse Center"), "Brooklyn-based self-led coding retreat", "June 2023", "August 2024", "NYC",
   )[
     - Learned #link("https://nixos.org")[Nix] and #link("https://github.com/NixOS/nixpkgs/pulls?q=is%3Apr%20404wolf", "contributed") packages to #link("https://github.com/NixOS/nixpkgs")[nixpkgs]. Working on project to dockerize Android emulators with Nix docker tools (#link("https://404wolf.com/posts/androidinthebrowser/", "blog"), #link("https://github.com/orgs/Cliquets/repositories")[code]).
     - Created Python Django server to merge Webster, OpenAI, and other API data into elegant English Vocab flashcard PDFs (#link("https://404wolf.com/posts/eclecticenglishvocabdeck/", "blog"), #link("https://github.com/orgs/Logophilio/repositories")[code]). Generated vector art using template SVGs and Chrome Devtools Protocol.
