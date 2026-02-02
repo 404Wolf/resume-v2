@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Nix
         uses: cachix/install-nix-action@v17
@@ -36,4 +36,4 @@ jobs:
           tag_name: "resume-${{ github.run_number }}"
           body: "Automated build from ${{ github.sha }}."
         env:
-          GITHUB_TOKEN: ${{ secrets.GAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
